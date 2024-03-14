@@ -1,0 +1,54 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header,
+.footer {
+    background-color: black;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header .container,
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 100%;
+}
+
+.raw {
+    display: flex;
+    gap: 30px;
+}
+
+main h2 {
+    text-align: center;
+}
+
+.main p {
+    color: rgb(212, 158, 158);
+}
+
+h1 {
+    text-align: center;
+    font-size: 82px;
+}
+
+.footer {
+    margin-top: 100px;
+}
